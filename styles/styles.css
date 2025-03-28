@@ -1,3 +1,9 @@
+@import url(font.css);
 :root{
-    
+    --mainColor: #22577A;
+    --secondaryColor: #38A3A5;
+    --tertiaryColor: #57CC99;
+    --tertiaryLightColor: #80ED99;
+    --tertiaryLighterColor: #C7F9CC;
+    --white: #ffffff;
 }
