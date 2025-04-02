@@ -6,28 +6,65 @@
     --tertiaryLightColor: #80ED99;
     --tertiaryLighterColor: #C7F9CC;
     --white: #ffffff;
+    --headerFont: "Exo 2";
+    --textFont: "Outfit";
 }
 .form-wrapper{
     display: flex    ;
         flex-wrap: nowrap;
         flex-direction: row;
         align-items: center;
-        align-content: space-around;
+        align-content: center;
         justify-content: center;
-        width: 600px;
+        width: 70vw;
+        height: 500px;
         border-radius: 12px;
         border: var(--secondaryColor) 1px solid;
-        height: 500px;
+        box-sizing: border-box;
+
 }
 .form-container{
-    background-color: #22577A;
+    display: flex
+    ;
+        background-color: var(--secondaryColor);
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+        border-radius: 11px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+
+}
+.grafic-container{
+    width: 100%;
+    height: 100%;
+    background-color: var(--tertiaryColor);
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
 
 }
 input{
     display: block;
     border: 0;
     padding: 20px;
-    width: 100px;
+    width: 60%;
     border-bottom: #ffffff 1px solid;
-background-color: transparent;
+    background-color: transparent;
+    
 }
+.main-element{
+    align-content: flex-start;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+
